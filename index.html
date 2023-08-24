@@ -76,7 +76,7 @@
                         obcaecati vero?
                     </p>
                     <button type="button" class="btn btn-primary animationButton"
-                        onclick="switchFace('face_product1')">Mas info</button>
+                        onclick="switchFace('face_product1')">Volver</button>
                 </div>
                 <div
                     class="w-100 w-md-50 bg-secondary p-4 px-5 text-center d-flex flex-column justify-content-center align-items-center col product-info">
@@ -115,7 +115,7 @@
                         obcaecati vero?
                     </p>
                     <button type="button" class="btn btn-secondary animationButton"
-                        onclick="switchFace('face_product2')">Mas info</button>
+                        onclick="switchFace('face_product2')">Volver</button>
                 </div>
 
                 <div class="bg-primary switch_face product_face2 col face_right" id="face_product2"></div>
@@ -138,7 +138,7 @@
                         obcaecati vero?
                     </p>
                     <button type="button" class="btn btn-primary animationButton"
-                        onclick="switchFace('face_product3')">Mas info</button>
+                        onclick="switchFace('face_product3')">Volver</button>
                 </div>
                 <div
                      class="w-100 w-md-50 bg-secondary p-4 px-5 text-center d-flex flex-column justify-content-center align-items-center col product-info">
@@ -178,7 +178,7 @@
                         obcaecati vero?
                     </p>
                     <button type="button" class="btn btn-secondary animationButton"
-                        onclick="switchFace('face_product4')">Mas info</button>
+                        onclick="switchFace('face_product4')">Volver</button>
                 </div>
 
                 <div class=" bg-primary switch_face product_face4 col face_right" id="face_product4"></div>
@@ -186,7 +186,7 @@
         </section>
 
         <section class="products_container bg-secondary pb-4">
-            <div class=" bg-tertiary py-3 title-container">
+            <div class="bg-tertiary py-3 title-container">
                 <h2 class="text-center m-0">RECETAS</h2>
             </div>
 
@@ -306,16 +306,23 @@
     </main>
 <footer class="bg-primary py-3">
     <div class="container-fluid row m-0 justify-content-center">
-        <div class="col-12 col-md-2 d-flex justify-content-center align-items-center mb-4">
+        <div class="col-12 col-lg-2 d-flex flex-column justify-content-center align-items-center mb-4">
             <picture class="">
                 <img src="./src/img/Logo/LogoHumaya100x100.png" alt="Humaya Logo" class="img-fluid w-100">
             </picture>
+            <div class="mt-4">
+                <ul class="navbar-nav flex-row justify-content-center gap-4">
+                    <li class="nav-item "><a href="" class="nav-link py-0 my-0"><i class="fa-brands fa-whatsapp fa-lg"></i></a></li>
+                    <li class="nav-item "><a href="" class="nav-link py-0 my-0"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                    <li class="nav-item "><a href="" class="nav-link py-0 my-0"><i class="fa-brands fa-tiktok fa-lg"></i></a></li>
+                </ul>
+            </div>
         </div>
-        <div class="col-12 col-md-4 d-flex flex-column align-items-center mb-4">
+        <div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center mb-4 flex-grow-1">
             <h4 class="text-center light-text mb-3">Menú</h4>
-            <div class="row d-flex justify-content-center w-100">
+            <div class="row d-flex justify-content-center w-100 text-center text-md-start">
                 <div class="col d-flex flex-column ">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav  text-center text-md-start text-lg-end">
                         <li class="nav-item ">
                             <a href="" class="nav-link py-0 my-0">Home</a>
                         </li>
@@ -348,7 +355,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-3 mb-4">
+        <div class="col-12 col-md-4 col-lg-3 mb-4">
             <h4 class="text-center light-text mb-3">Contacto</h4>
             <ul class="navbar-nav text-center">
                 <li class="nav-item ">
@@ -361,18 +368,16 @@
                         <i class="fa-solid fa-at me-2"></i>contacto@humaya.com.ar
                       </a>
                   </li>
+                  <li class="nav-item ">
+                    <a href="" class="nav-link py-0 my-0">
+                      <i class="fa-solid fa-house me-2"></i>Montes de Oca 2356 - CABA
+                    </a>
+                </li>
               </ul>
-            <div class="mt-4">
-                <ul class="navbar-nav flex-row justify-content-center gap-4">
-                    <li class="nav-item "><a href="" class="nav-link py-0 my-0"><i class="fa-brands fa-whatsapp fa-lg"></i></a></li>
-                    <li class="nav-item "><a href="" class="nav-link py-0 my-0"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
-                    <li class="nav-item "><a href="" class="nav-link py-0 my-0"><i class="fa-brands fa-tiktok fa-lg"></i></a></li>
-                </ul>
-            </div>
+            
         </div>
-        <div class="col-12 col-md-3 d-flex flex-column align-items-center">
+        <div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center">
             <h4 class="text-center light-text mb-3">Ubicación</h4>
-            <p class="light-text">Montes de Oca 2356 - CABA</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0394050863997!2d-58.3730960233289!3d-34.6537077601417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334aab78be889%3A0xe808082ff7311cac!2sAv.%20Montes%20de%20Oca%202356%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1692798402198!5m2!1ses!2sar" style="border:0;" class="rounded w-75" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
