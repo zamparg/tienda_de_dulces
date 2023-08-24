@@ -113,7 +113,14 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--bs-primary);
     width: 100%;
     box-shadow:  var(--black) 0px 3px 10px;
+}
 
+.certificados-container{
+    width: 100%;
+}
+.certificados-img{
+    max-width: 60%;
+    align-content: center;
 }
 
 /* PRODUCTS */
